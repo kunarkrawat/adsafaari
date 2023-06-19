@@ -1,0 +1,531 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adsafaari</title>
+    <link rel="icon" href="favicon.ico">
+
+    <link href="assets/css/plugins/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/fonts/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/fonts/bs-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/plugins/slick.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/plugins/animate.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?3127';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#4dc247",
+      "ctaText":"Chat Now",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"right"
+  },
+  "brandSetting":{
+      "brandName":"Adsafaari",
+      "brandSubTitle":"Typically replies within a day",
+      "brandImg":"assets/images/logo.jpeg",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about",
+      "backgroundColor":"#0a5f54",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"918982109701"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+
+<body>
+    <div class="preloader">
+        <img src="assets/images/preloader.svg" alt="preloader">
+    </div>
+
+    <header class="header style_two can-sticky">
+        <div class="container">
+            <div class="header_inner">
+
+                <div class="logo">
+                    <a href="" class="d-flex h-100">
+                        <img src="assets/images/logo.png" alt="logo" class="image-fit-contain">
+                    </a>
+                </div>
+
+                <div class="nav_actions d-flex align-items-center justify-content-end">
+
+                    <div class="navigation">
+                        <ul class="main-menu">
+                            <li class="menu-item">
+                                <a href="" class="active">Home</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#services">Our Services</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div class="header_actions">
+                        <ul>
+
+                        </ul>
+
+                        <button type="button" class="trigger_btn style_two right_side ms-lg-3 canvas_trigger"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">
+                            <cite class="trigger_inner">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </cite>
+                        </button>
+
+                        <button type="button"
+                            class="trigger_btn style_two right_side d-lg-none d-flex hamburger_trigger">
+                            <cite class="trigger_inner">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </cite>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="single_banner section-bg contain" style="background-image: url(assets/images/banner/single_bg.png);"
+        id="banner-animation">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5">
+                    <div class="banner_text text-center">
+                        <!-- <h5 class="subtitle"><span class="thm-color-five">Today</span> Big Game</h5> -->
+                        <h3 class="title"><span class="thm-color-five d-lg-block">Adsafaari</span></h3>
+                        <h1> <b>Your<br>E-Commerce Station</b></h1>
+                        <p class="text">With our high quality services that give best results for your business, brand &
+                            Product sales, we customize all your requirements as you want in your brand or business</p>
+                        <a href="#contact" class="thm-btn style_two">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="video_box box_wrapper mb-0 wow animate__animated animate__fadeInUp">
+                        <video controls autoplay loop class="image-fit">
+                            <source src="assets/video/head.mp4" type='video/mp4'>
+                            <!-- <video class="gdriveVideo" preload="auto" controls> -->
+                            <!-- <source src="https://drive.google.com/uc?export=download&id=1lnShK_ey5DRkxQp1EFuXXRW0_lEi-n1a" type='video/mp4'> -->
+                            <!-- </video> -->
+                        </video>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="elements">
+            <img src="assets/images/banner/elements/1.png" alt="element" class="slideTop element element-1">
+            <!-- <img src="assets/images/banner/elements/2.png" alt="element" class="rotate_elem element element-2"> -->
+            <img src="assets/images/banner/elements/3.png" alt="element" class="rotate_elem element element-3">
+            <img src="assets/images/banner/elements/4.png" alt="element" class="slideTop element element-4">
+            <img src="assets/images/banner/elements/5.png" alt="element" class="rotate_elem element element-5">
+        </div>
+    </div>
+
+
+
+    <section class="section-padding" id="services">
+        <div class="container">
+            <div class="section-header style_two text-center" style="display: block;">
+                <div class="text-center">
+                    <!-- <h6 class="subtitle wow animate__animated animate__fadeInLeft">Game</h6> -->
+                    <h3 class="title wow animate__animated animate__fadeInLeft">Our Services</h3>
+                </div>
+                <!-- <div class="right_block">
+                    <p class="mb-0 wow animate__animated animate__fadeInLeft">non proident, sunt in culpa qui officia
+                        deserunt mollit anim unde omnis iste natus error.</p>
+                </div> -->
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="col-lg-6 col-sm-6">
+                    <div class="top_game wow animate__animated animate__fadeInUp">
+                        <div class="game_image">
+                            <div class="video_box box_wrapper mb-0"
+                                style="border-color:var(--thm-color-three); border-radius: 0;">
+                                <img src="assets/images/video/ads.png" alt="img" class="image-fit"
+                                    style="width: 26rem;">
+                                <div class="transform-center text-center">
+                                    <a href="assets/video/ads.mp4" class="popup_video video_ripple">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_caption">
+                            <h4 class="game_title"><a href="pages/ad-video-creative.html">Ad Video Creative</a></h4>
+                            <p class="mb-0">Here we create best and high quality videos or edit your videos as you want
+                                for your product, business and brand</p>
+                        </div>
+                        <div class="game_footer">
+                            <a href="pages/ad-video-creative.html" class="thm-btn style_two">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6">
+                    <div class="top_game wow animate__animated animate__fadeInUp">
+                        <div class="game_image">
+                            <div class="video_box box_wrapper mb-0"
+                                style="border-color:var(--thm-color-three); border-radius: 0;">
+                                <img src="assets/images/video/photoad.png" alt="img" class="image-fit"
+                                    style="width: 26rem;">
+                                <div class="transform-center text-center">
+                                    <a href="assets/video/photo.mp4" class="popup_video video_ripple">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_caption">
+                            <h4 class="game_title"><a href="pages/photo-creative.html">Photo Creative</a></h4>
+                            <p class="mb-0">Here we create best and high quality trending & Viral posters and photo
+                                creatives as you want for your products brand and business</p>
+                        </div>
+                        <div class="game_footer">
+                            <a href="pages/photo-creative.html" class="thm-btn style_two">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6">
+                    <div class="top_game wow animate__animated animate__fadeInUp">
+                        <div class="game_image">
+                            <div class="video_box box_wrapper mb-0"
+                                style="border-color:var(--thm-color-three); border-radius: 0;">
+                                <img src="assets/images/video/tshirt.png" alt="img" class="image-fit"
+                                    style="width: 26rem;">
+                                <div class="transform-center text-center">
+                                    <a href="assets/video/tshirt.mp4" class="popup_video video_ripple">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_caption">
+                            <h4 class="game_title"><a href="pages/t-shirt-design.html">T-shirt Design</a></h4>
+                            <p class="mb-0">Here we create best and high quality trending and viral t shirt designs
+                                which helps you to sell your tshirt faster and more</p>
+                        </div>
+                        <div class="game_footer">
+                            <a href="pages/t-shirt-design.html" class="thm-btn style_two">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6">
+                    <div class="top_game wow animate__animated animate__fadeInUp">
+                        <div class="game_image">
+                            <div class="video_box box_wrapper mb-0"
+                                style="border-color:var(--thm-color-three); border-radius: 0;">
+                                <img src="assets/images/video/landingpg.png" alt="img" class="image-fit"
+                                    style="width: 26rem;">
+                                <div class="transform-center text-center">
+                                    <a href="assets/video/landingpage.mp4" class="popup_video video_ripple">
+                                        <i class="fas fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="game_caption">
+                            <h4 class="game_title"><a href="pages/landing-page.html">Landing Page Design</a></h4>
+                            <p class="mb-0">Here we help you to create best and sales conversion landing page for your
+                                course, business, brand and etc.</p>
+                        </div>
+                        <div class="game_footer">
+                            <a href="pages/landing-page.html" class="thm-btn style_two">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header style_two text-center" style="display: block;">
+                <div class="text-center">
+                    <!-- <h6 class="subtitle wow animate__animated animate__fadeInLeft">Game</h6> -->
+                    <h3 class="title wow animate__animated animate__fadeInLeft">Our Clients</h3>
+                </div>
+                <!-- <div class="right_block">
+                <p class="mb-0 wow animate__animated animate__fadeInLeft">non proident, sunt in culpa qui officia
+                    deserunt mollit anim unde omnis iste natus error.</p>
+            </div> -->
+            </div>
+            <div class="video_slider row">
+
+                <div class="slide_item px-3">
+                    <div class="video_box box_wrapper mb-0">
+                        <img src="assets/images/video/1.png" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="video_box box_wrapper mb-0">
+                        <img src="assets/images/video/2.png" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="video_box box_wrapper mb-0">
+                        <img src="assets/images/video/3.png" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="video_box box_wrapper mb-0">
+                        <img src="assets/images/video/4.png" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+            </div>
+            <div class="video_arrows">
+                <button class="slick-prev trigger_btn style_two" type="button">Previous</button>
+                <button class="slick-next trigger_btn style_two" type="button">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header style_two text-center" style="display: block;">
+                <div class="text-center">
+                    <!-- <h6 class="subtitle wow animate__animated animate__fadeInLeft">Game</h6> -->
+                    <h3 class="title wow animate__animated animate__fadeInLeft">Reviews</h3>
+                </div>
+                <!-- <div class="right_block">
+                    <p class="mb-0 wow animate__animated animate__fadeInLeft">non proident, sunt in culpa qui officia
+                        deserunt mollit anim unde omnis iste natus error.</p>
+                </div> -->
+            </div>
+            <div class="video_slider row">
+
+                <div class="slide_item px-3">
+                    <div class="mb-0">
+                        <img src="assets/images/testimonials/1.jpg" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="mb-0">
+                        <img src="assets/images/testimonials/2.jpg" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="mb-0">
+                        <img src="assets/images/testimonials/3.jpg" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="mb-0">
+                        <img src="assets/images/testimonials/4.jpg" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+                <div class="slide_item px-3">
+                    <div class="mb-0">
+                        <img src="assets/images/testimonials/5.jpg" alt="img" class="image-fit1">
+                    </div>
+                </div>
+
+            </div>
+            <div class="video_arrows">
+                <button class="slick-prev trigger_btn style_two" type="button">Previous</button>
+                <button class="slick-next trigger_btn style_two" type="button">Next</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter_section" id="contact">
+        <div class="container">
+            <div class="box_wrapper mb-0" style="border: 6px solid var(--thm-color-five);">
+                <div class="section-header text-center">
+                    <h6 class="subtitle wow animate__animated animate__fadeInUp">Contact Us</h6>
+                    <h3 class="title wow animate__animated animate__fadeInUp">Get In Touch</h3>
+                </div>
+                <form class="row" action="" method="POST">
+                    <div class="col-md-6">
+                        <div class="form-group form-floating">
+                            <input type="text" name="name" id="fullName" class="form-control form-control-custom"
+                                placeholder="Your Name" autocomplete="off" required>
+                            <label for="fullName">Your Name</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-floating">
+                            <input type="email" name="email" id="email" class="form-control form-control-custom"
+                                placeholder="Your Email" autocomplete="off" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-floating">
+                            <input type="text" name="phone" id="phone" class="form-control form-control-custom"
+                                placeholder="Your Phone" autocomplete="off" required>
+                            <label for="phone">Your Phone</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-floating">
+                            <input type="text" name="subject" id="subject" class="form-control form-control-custom"
+                                placeholder="What Service Do You Need?" autocomplete="off" required>
+                            <label for="subject">What Service Do You Need?</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group form-floating">
+                            <textarea rows="10" name="msg" id="message" class="form-control form-control-custom"
+                                placeholder="Business Details..." autocomplete="off"></textarea>
+                            <label for="message">Business Details...</label>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" class="thm-btn">
+                            <span>SUBMIT NOW</span>
+                            <cite class="liquid" style="background: var(--thm-color-five)"></cite>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer style_two section pb-0 section-bg"
+        style="background-image: url(assets/images/bg/4.jpg); --overlay-value: 90%;">
+        <div class="container">
+            <div class="footer_inner">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-6">
+                        <div class="footer_widgets">
+                            <div class="widgets_inner">
+                                <div class="ft_logo">
+                                    <img src="assets/images/logo.png" alt="logo" class="image-fit-contain">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="footer_widgets">
+                            <div class="widgets_inner">
+                                <ul class="ft_menu">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#services">Our Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6">
+                        <div class="footer_widgets">
+                            <div class="widgets_inner">
+                                <ul class="ft_social">
+                                    <li>
+                                        <a href="#" class="trigger_btn style_two">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="trigger_btn style_two">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="trigger_btn style_two">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 text-center text-lg-start">
+                        <p>Copyright © <a href="">Adsafaari</a> <span id="year"></span>. All Right Reserved</p>
+                    </div>
+                    <div class="col-lg-5 order-lg-3">
+                        <ul class="cp_menu justify-content-center justify-content-lg-end">
+                            <li>
+                                <a href="pages/tnc.html">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="pages/privacy-policy.html">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 order-lg-2">
+
+                        <button type="button" class="backtotop trigger_btn style_two">
+                            <i class="bi-chevron-up"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="df-cursor"></div>
+    <div class="df-cursor2"></div>
+
+    <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugins/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/plugins/particles.js"></script>
+    <script src="assets/js/plugins/slick.min.js"></script>
+    <script src="assets/js/plugins/slick-animation.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.counterup.min.js"></script>
+    <script src="assets/js/plugins/jquery.inview.min.js"></script>
+    <script src="assets/js/plugins/cursor.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
